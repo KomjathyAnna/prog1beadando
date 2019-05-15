@@ -25,8 +25,4 @@ def szamol(ertek):
     for s in filter(lambda x: x[0] == ertek, map(lambda x: (eval(x), x), generalt())):
         print(s)
 
-
-
-
-
 szamol(100)
